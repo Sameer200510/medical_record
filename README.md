@@ -5,3 +5,6 @@ This project aims to resolve the problem of:
 Through the use of cutting-edge digital technologies, the BMR system offers a safe, centralized location for all patient data. 
 Healthcare personnel may easily access, edit, and share patient information thanks to its user-friendly interfaces, which helps them make more informed clinical decisions and provide better treatment.
 The system developed using the Ethereum network using Ganache(I have compiled the programs in Remix IDE). The measured approach is to store patients data and execute functions in a decentralized system using blockchain smart contracts.
+
+
+                                                                                COMPILED THE PROGRAMS USING REMIX IDE
