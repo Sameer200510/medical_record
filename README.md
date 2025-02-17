@@ -7,4 +7,6 @@ Healthcare personnel may easily access, edit, and share patient information than
 The system developed using the Ethereum network using Ganache(I have compiled the programs in Remix IDE). The measured approach is to store patients data and execute functions in a decentralized system using blockchain smart contracts.
 
 
-                                                                                COMPILED THE PROGRAMS USING REMIX IDE
+                                             COMPILED THE PROGRAMS USING REMIX IDE
+                                  
+                                                https://remix.ethereum.org/
