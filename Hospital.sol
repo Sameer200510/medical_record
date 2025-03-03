@@ -5,12 +5,14 @@ pragma solidity ^0.8.20;
  * @title Hospital Registration
  * @dev Store & retrieve hospital details 
  */
-contract Hospital  {
+contract Hospital  
+  {
     // Mapping to store hospital details by ID
     mapping(uint256 => hospital) public hospitallist;
 
     // Struct to store hospital details
-    struct hospital {
+    struct hospital 
+   {
         string hospital_name;
         string hospital_address;
         string hospital_spec;
@@ -20,12 +22,14 @@ contract Hospital  {
     address public owner;
 
     // Constructor to set the owner of the contract
-    constructor() {
+    constructor() 
+    {
         owner = msg.sender; // Hospital address (who deploys the contract)
     }
 
     // Modifier to give access only to the hospital (owner)
-    modifier isOwner() {
+    modifier isOwner() 
+    {
         require(msg.sender == owner, "Access is not allowed: Only the hospital can store details.");
         _;
     }
