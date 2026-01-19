@@ -154,3 +154,4 @@ contract Patient {
         return (a.attendant_name, a.attendant_relation, a.attendant_phn_no);
     }
 }
+
